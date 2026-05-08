@@ -1,0 +1,116 @@
+
+---
+
+## Report
+
+```md
+# Project Report
+
+# Carbon Emission Estimator for Supply Chains
+
+## Introduction
+Carbon emissions from supply chains are increasing due to transportation, logistics, warehousing, and manufacturing operations.  
+This project uses Machine Learning techniques to estimate carbon emissions and provide sustainability recommendations.
+
+---
+
+## Objective
+The objectives of this project are:
+- Predict carbon emissions in supply chains
+- Analyze sustainability factors
+- Suggest methods to reduce emissions
+- Build an interactive prediction system
+
+---
+
+## Technologies Used
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+
+---
+
+## Dataset Description
+The dataset contains information related to supply chain operations and sustainability factors.
+
+Features include:
+- Supplier Count
+- Lead Time
+- Energy Consumption
+- Renewable Energy Usage
+- Recycling Rate
+- Green Packaging Usage
+- Operational Efficiency
+- Customer Satisfaction
+- Supply Chain Risk
+
+Target Variable:
+- Carbon Emissions (kg CO2e)
+
+---
+
+## Methodology
+
+### Data Preprocessing
+- Handling missing values
+- Feature engineering
+- Data encoding
+- Feature scaling
+
+### Machine Learning Models
+The following regression algorithms were tested:
+- Linear Regression
+- Ridge Regression
+- Random Forest
+- Extra Trees
+- Gradient Boosting
+
+The best model was selected based on performance metrics.
+
+---
+
+## System Working
+1. User enters supply chain details
+2. Input data is processed
+3. Trained ML model predicts carbon emissions
+4. System displays:
+   - Predicted emissions
+   - Emission level
+   - Recommendations
+   - Comparison charts
+
+---
+
+## Features
+- Interactive web application
+- Real-time prediction
+- Sustainability insights
+- Emission comparison graphs
+- Improvement simulation
+
+---
+
+## Results
+The system successfully predicts carbon emissions and suggests improvement strategies such as:
+- Increasing renewable energy usage
+- Improving recycling rate
+- Using green packaging
+- Reducing supply chain risk
+- Improving operational efficiency
+
+---
+
+## Conclusion
+This project shows how Machine Learning can help organizations improve sustainable supply chain management by predicting and reducing carbon emissions.
+
+---
+
+## Future Scope
+- Deep Learning integration
+- Real-time industrial data
+- Cloud deployment
+- IoT integration
+- Advanced analytics dashboard
